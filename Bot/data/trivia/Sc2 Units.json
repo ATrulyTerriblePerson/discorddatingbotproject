@@ -1,0 +1,613 @@
+{
+"Probe": {
+        "health": 20,
+        "mineral_cost": 50,
+        "vespene_cost": 0,
+        "building_time": 12,
+        "armour": "0 (+1)",
+        "shield": 20,
+        "damage": 5
+    },
+    "Zealot": {
+        "health": 100,
+        "mineral_cost": 100,
+        "vespene_cost": 0,
+        "building_time": 27,
+        "armour": "1 (+1)",
+        "shield": 50,
+        "damage": "8 (+1) (x2)"
+    },
+    "Stalker": {
+        "health": 80,
+        "mineral_cost": 125,
+        "vespene_cost": 50,
+        "building_time": 30,
+        "armour": "1 (+1)",
+        "shield": 80,
+        "damage": "13 (+1) / 18 (+2) vs Armored"
+    },
+    "Adept": {
+        "health": 70,
+        "mineral_cost": 100,
+        "vespene_cost": 25,
+        "building_time": 30,
+        "armour": "1 (+1)",
+        "shield": 70,
+        "damage": "10 (+1) / 22 (+2) vs Light"
+    },
+    "Sentry": {
+        "health": 40,
+        "mineral_cost": 50,
+        "vespene_cost": 100,
+        "building_time": 23,
+        "armour": "1 (+1)",
+        "shield": 40,
+        "damage": "6 (+1) / 10 (+1) vs Shields"
+    },
+    "High Templar": {
+        "health": 40,
+        "mineral_cost": 50,
+        "vespene_cost": 150,
+        "building_time": 39,
+        "armour": "0 (+1)",
+        "shield": 40,
+        "damage": "4 (+1)"
+    },
+    "Dark Templar": {
+        "health": 40,
+        "mineral_cost": 125,
+        "vespene_cost": 125,
+        "building_time": 39,
+        "armour": "1 (+1)",
+        "shield": 80,
+        "damage": "45 (+5)"
+    },
+    "Archon": {
+        "health": 10,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 8.6,
+        "armour": "0 (+1)",
+        "shield": 350,
+        "damage": "25 (+3) / 35 (+4) vs Biological"
+    },
+    "Observer": {
+        "health": 40,
+        "mineral_cost": 25,
+        "vespene_cost": 75,
+        "building_time": 18,
+        "armour": "0 (+1)",
+        "shield": 30,
+        "damage": null
+    },
+    "Warp Prism": {
+        "health": 80,
+        "mineral_cost": 250,
+        "vespene_cost": 0,
+        "building_time": 36,
+        "armour": "0 (+1)",
+        "shield": 100,
+        "damage": null
+    },
+    "Immortal": {
+        "health": 200,
+        "mineral_cost": 275,
+        "vespene_cost": 100,
+        "building_time": 39,
+        "armour": "1 (+1)",
+        "shield": 100,
+        "damage": "20 (+2) / 50 (+5) vs Armored"
+    },
+    "Disruptor": {
+        "health": 100,
+        "mineral_cost": 150,
+        "vespene_cost": 150,
+        "building_time": 36,
+        "armour": "1 (+1)",
+        "shield": 100,
+        "damage": null
+    },
+    "Colossus": {
+        "health": 200,
+        "mineral_cost": 300,
+        "vespene_cost": 200,
+        "building_time": 54,
+        "armour": "1 (+1)",
+        "shield": 150,
+        "damage": "10 (+1) (x2) / 15 (+2) (x2) vs Light"
+    },
+    "Phoenix": {
+        "health": 120,
+        "mineral_cost": 150,
+        "vespene_cost": 100,
+        "building_time": 25,
+        "armour": "0 (+1)",
+        "shield": 60,
+        "damage": "5 (+1) (x2) / 10 (+1) (x2) vs Light"
+    },
+    "Void Ray": {
+        "health": 150,
+        "mineral_cost": 250,
+        "vespene_cost": 150,
+        "building_time": 43,
+        "armour": "0 (+1)",
+        "shield": 100,
+        "damage": "6 (+1) / 10 (+1) [16 pa] vs Armored"
+    },
+    "Oracle": {
+        "health": 100,
+        "mineral_cost": 150,
+        "vespene_cost": 150,
+        "building_time": 37,
+        "armour": "0 (+1)",
+        "shield": 60,
+        "damage": "15 / 22 vs Light"
+    },
+    "Carrier": {
+        "health": 300,
+        "mineral_cost": 350,
+        "vespene_cost": 250,
+        "building_time": 64,
+        "armour": "2 (+1)",
+        "shield": 150,
+        "damage": "5 (+1) (x2) (x8 Interceptors)"
+    },
+    "Interceptor": {
+        "health": 40,
+        "mineral_cost": 15,
+        "vespene_cost": 0,
+        "building_time": 9,
+        "armour": "0 (+1)",
+        "shield": 40,
+        "damage": "5 (+1) (x2)"
+    },
+    "Tempest": {
+        "health": 200,
+        "mineral_cost": 250,
+        "vespene_cost": 175,
+        "building_time": 43,
+        "armour": "2 (+1)",
+        "shield": 100,
+        "damage": "40 (+4) / 80 (+4) vs Structures td"
+    },
+    "Mothership": {
+        "health": 250,
+        "mineral_cost": 300,
+        "vespene_cost": 300,
+        "building_time": 89,
+        "armour": "2 (+1)",
+        "shield": 250,
+        "damage": "6 (+1) (x6)"
+    },
+    "Larva": {
+        "health": 25,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": null,
+        "armour": "10",
+        "shield": null,
+        "damage": null
+    },
+    "Larva cocoon": {
+        "health": 200,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": null,
+        "armour": "10",
+        "shield": null,
+        "damage": null
+    },
+    "Drone": {
+        "health": 40,
+        "mineral_cost": 50,
+        "vespene_cost": 0,
+        "building_time": 12,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": 5
+    },
+    "Queen": {
+        "health": 175,
+        "mineral_cost": 150,
+        "vespene_cost": 0,
+        "building_time": 36,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": "4 (+1) (x2)"
+    },
+    "Zergling": {
+        "health": 35,
+        "mineral_cost": 25,
+        "vespene_cost": 0,
+        "building_time": 17,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": "5 (+1)"
+    },
+    "Baneling cocoon": {
+        "health": 50,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 14,
+        "armour": "2 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Baneling": {
+        "health": 30,
+        "mineral_cost": 50,
+        "vespene_cost": 25,
+        "building_time": 31,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": "16 (+2) / 35 (+2) vs Light"
+    },
+    "Roach": {
+        "health": 145,
+        "mineral_cost": 75,
+        "vespene_cost": 25,
+        "building_time": 19,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": "16 (+2)"
+    },
+    "Ravager cocoon": {
+        "health": 120,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 12,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Ravager": {
+        "health": 120,
+        "mineral_cost": 100,
+        "vespene_cost": 75,
+        "building_time": 31,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": "16 (+2)"
+    },
+    "Hydralisk": {
+        "health": 90,
+        "mineral_cost": 100,
+        "vespene_cost": 50,
+        "building_time": 24,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": "12 (+1)"
+    },
+    "Lurker cocoon": {
+        "health": 100,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 18,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Lurker": {
+        "health": 200,
+        "mineral_cost": 150,
+        "vespene_cost": 100,
+        "building_time": 42,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": "20 (+2) / 30 (+3) vs Armored"
+    },
+    "Mutalisk": {
+        "health": 120,
+        "mineral_cost": 100,
+        "vespene_cost": 100,
+        "building_time": 24,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": "9 (+1), 3 (+0.3), 1 (+0.1)"
+    },
+    "Corruptor": {
+        "health": 200,
+        "mineral_cost": 150,
+        "vespene_cost": 100,
+        "building_time": 29,
+        "armour": "2 (+1)",
+        "shield": null,
+        "damage": "14 (+1) / 20 (+2) vs Massive"
+    },
+    "Brood Lord cocoon": {
+        "health": 200,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 24,
+        "armour": "2 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Brood Lord": {
+        "health": 225,
+        "mineral_cost": 300,
+        "vespene_cost": 250,
+        "building_time": 53,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": "20 (+2) (x2)"
+    },
+    "Broodling": {
+        "health": 20,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": null,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": "4 (+1)"
+    },
+    "Ultralisk": {
+        "health": 500,
+        "mineral_cost": 275,
+        "vespene_cost": 200,
+        "building_time": 39,
+        "armour": "2 (+1) (+2 cp)",
+        "shield": null,
+        "damage": "35 (+3)"
+    },
+    "Overlord": {
+        "health": 200,
+        "mineral_cost": 100,
+        "vespene_cost": 0,
+        "building_time": 18,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Overseer cocoon": {
+        "health": 200,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 15,
+        "armour": "2 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Overseer": {
+        "health": 200,
+        "mineral_cost": 150,
+        "vespene_cost": 50,
+        "building_time": 30,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Changeling": {
+        "health": 5,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": null,
+        "armour": "0",
+        "shield": null,
+        "damage": null
+    },
+    "Infestor": {
+        "health": 90,
+        "mineral_cost": 100,
+        "vespene_cost": 150,
+        "building_time": 36,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Swarm Host": {
+        "health": 160,
+        "mineral_cost": 100,
+        "vespene_cost": 75,
+        "building_time": 29,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": null
+    },
+    "Locust": {
+        "health": 50,
+        "mineral_cost": null,
+        "vespene_cost": null,
+        "building_time": 3.6,
+        "armour": "0 (+1)",
+        "shield": null,
+        "damage": "10 (+1)"
+    },
+    "Viper": {
+        "health": 150,
+        "mineral_cost": 100,
+        "vespene_cost": 200,
+        "building_time": 29,
+        "armour": "1 (+1)",
+        "shield": null,
+        "damage": null
+    },"SCV": {
+    "health": 45,
+    "mineral_cost": 50,
+    "vespene_cost": 0,
+    "building_time": 12,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": 5
+  },
+  "MULE": {
+    "health": 60,
+    "mineral_cost": null,
+    "vespene_cost": null,
+    "building_time": null,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": null
+  },
+  "Marine": {
+    "health": 45,
+    "mineral_cost": 50,
+    "vespene_cost": 0,
+    "building_time": 18,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": 6
+  },
+  "Marauder": {
+    "health": 125,
+    "mineral_cost": 100,
+    "vespene_cost": 25,
+    "building_time": 21,
+    "armour": "1 (+1)",
+    "shield": null,
+    "damage": "10 (+1)"
+  },
+  "Reaper": {
+    "health": 60,
+    "mineral_cost": 50,
+    "vespene_cost": 50,
+    "building_time": 32,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "4 (+1) (x2)"
+  },
+  "Ghost": {
+    "health": 100,
+    "mineral_cost": 150,
+    "vespene_cost": 125,
+    "building_time": 29,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "10 (+1) / 20 (+2) vs Light"
+  },
+  "Hellion": {
+    "health": 90,
+    "mineral_cost": 100,
+    "vespene_cost": 0,
+    "building_time": 21,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "8 (+1) / 14 (19 ipi) (+2) vs Light"
+  },
+  "Hellbat": {
+    "health": 135,
+    "mineral_cost": 100,
+    "vespene_cost": 0,
+    "building_time": 21,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "18 (+2) / 30 (+2) ipi vs Light"
+  },
+  "Siege Tank": {
+    "health": 175,
+    "mineral_cost": 150,
+    "vespene_cost": 125,
+    "building_time": 32,
+    "armour": "1 (+1)",
+    "shield": null,
+    "damage": "15 (+2) / 25 (+3) vs Armored"
+  },
+  "Cyclone": {
+    "health": 130,
+    "mineral_cost": 125,
+    "vespene_cost": 50,
+    "building_time": 32,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "11 (+1) / 14 (+1) vs Mechanical"
+  },
+  "Widow Mine": {
+    "health": 90,
+    "mineral_cost": 75,
+    "vespene_cost": 25,
+    "building_time": 21,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "125 (+40 splash) / 160 (+65 splash) vs Shields"
+  },
+  "Thor": {
+    "health": 400,
+    "mineral_cost": 300,
+    "vespene_cost": 200,
+    "building_time": 43,
+    "armour": "1 (+1)",
+    "shield": null,
+    "damage": "30 (+3)(x2)"
+  },
+  "Viking": {
+    "health": 135,
+    "mineral_cost": 150,
+    "vespene_cost": 75,
+    "building_time": 30,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "10 (+1) (x2) / 14 (+1) (x2) vs Armored"
+  },
+  "Medivac": {
+    "health": 150,
+    "mineral_cost": 100,
+    "vespene_cost": 100,
+    "building_time": 30,
+    "armour": "1 (+1)",
+    "shield": null,
+    "damage": null
+  },
+  "Liberator": {
+    "health": 180,
+    "mineral_cost": 150,
+    "vespene_cost": 125,
+    "building_time": 43,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "5 (+1) (x2)"
+  },
+  "Raven": {
+    "health": 140,
+    "mineral_cost": 100,
+    "vespene_cost": 150,
+    "building_time": 34,
+    "armour": "1 (+1)",
+    "shield": null,
+    "damage": null
+  },
+  "Auto-Turret": {
+    "health": 100,
+    "mineral_cost": null,
+    "vespene_cost": null,
+    "building_time": null,
+    "armour": "0",
+    "shield": null,
+    "damage": 18
+  },
+  "Banshee": {
+    "health": 140,
+    "mineral_cost": 150,
+    "vespene_cost": 100,
+    "building_time": 43,
+    "armour": "0 (+1)",
+    "shield": null,
+    "damage": "12 (+1) (x2)"
+  },
+  "Battlecruiser": {
+    "health": 550,
+    "mineral_cost": 400,
+    "vespene_cost": 300,
+    "building_time": 64,
+    "armour": "3 (+1)",
+    "shield": null,
+    "damage": 8
+  },
+  "Jonathan": {
+    "health": 500000000000000,
+    "mineral_cost": 1,
+    "vespene_cost": 1,
+    "building_time": null,
+    "armour": "420 (+69)",
+    "shield": null,
+    "damage": 500
+  },
+  "Noah": {
+    "health": 1,
+    "mineral_cost": 1,
+    "vespene_cost": 1000,
+    "building_time": null,
+    "armour": "1",
+    "shield": null,
+    "damage": 500
+  }
+}
